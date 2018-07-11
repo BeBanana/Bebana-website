@@ -10,6 +10,11 @@ body {
   margin-top:75px;
 }
 
+h2 {
+  font-weight: bold;
+  color: #5f2d0b;
+}
+
 .card-box {
   display: flex;
   justify-content:center;
@@ -35,6 +40,15 @@ body {
 .card {
   width:18rem;
   margin:5px;
+}
+
+.nav-link {
+  font-size: 15px;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #ffe600;
+  background: white;
 }
 
 a.anchor {
