@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script>
+      $('document').ready(function(){
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({block:"start",behavior:"smooth"});
+          });
+        });
+      });
+    </script>
+    <title>BeBanana</title>
+  </head>
+  <body class="main">
+    <header>
+      <nav class="navbar navbar-default navbar-expand-lg" style="background:#ffffff; height:75px">
+          <a class="navbar-brand" href="#">
+            <center>
+              <img src="resources/logo-2.png" height="75px" alt="" />
+            </center>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarToggler">
+            <ul class="nav nav-pills ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about-anchor">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#apps-anchor">APPS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-anchor">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+
+    <a class="anchor" id="banner-anchor"></a>
+    <section>
+      <img src="resources/banner.jpg" width="100%" alt="" />
+    </section>
+
+    <a class="anchor" id="about-anchor"></a>
+    <section id="about" class="with-padding">
+      <center><h4>About</h4></center>
+    </section>
+
+    <a class="anchor" id="apps-anchor"></a>
+    <section id="apps" class="with-padding">
+      <center><h2>Apps</h2>
+        <div class="card-box">
+          <div class="card">
+
+        <div class="card-header">
+          <center>
+            <img style="width:50px;height:50px;border-radius:25px;" src="https://lh3.googleusercontent.com/BJ-ryV2c0SlnZMZjPeSTAobh2HcoS9X9qQoF0-VkBkwFBSSbEHw_V2voOiWVtrGMgubBxf6lVTE=s90"/>
+            <h3 style="color:#532809">The Rover Station</h3>
+          </center>
+        </div>
+
+        <div class="card-body" style="text-align:left;">
+          <p>The Rover Station app gives you the last weather measurement data from the planet Mars.</p>
+        </div>
+        <div class="card-footer">
+          <center>
+            <a target="_blank" href="https://assistant.google.com/services/a/uid/000000dfb65ac260?hl=en-US">
+              <img src="resources/XPM_BADGING_GoogleAssistant_HOR.png">
+            </a>
+          </center>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <center>
+            <img style="width:50px;height:50px;border-radius:25px;" src="https://lh3.googleusercontent.com/sp8VNNBnJZc3iC530oiURo0HFvXTKQKixQCX2-SoQoSXqEpof4h9HbBGkryX9AhXWhcxYXPRvsa3=s90"/>
+            <h3 style="color:#532809">Word Daily</h3>
+          </center>
+        </div>
+
+        <div class="card-body" style="text-align:left;">
+          <p>The Word Daily app teaches you a new word every day in a new language.</p>
+        </div>
+        <div class="card-footer">
+          <center>
+            <a target="_blank" href="https://assistant.google.com/services/a/uid/0000006a9aec0a44?hl=en-US">
+              <img src="resources/XPM_BADGING_GoogleAssistant_HOR.png">
+            </a>
+          </center>
+        </div>
+      </div>
+    </div>
+    </center>
+    </section>
+
+    <a class="anchor" id="contact-anchor"></a>
+    <section id="contact" class="with-padding">
+      <center><h4>Contact</h4></center>
+      <a style="color:white;" href="mailto:xavier@bebanana.eu">xavier@bebanana.eu</a>
+    </section>
+
+    <footer>
+      <div class="with-padding">
+
+      </div>
+    </footer>
+  </body>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://smtpjs.com/v2/smtp.js"></script>
+</html>

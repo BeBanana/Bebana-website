@@ -1,0 +1,57 @@
+.with-padding {
+  padding:50px;
+}
+
+#about, #contact {
+  background:rgba(0, 0, 0,0.05);
+}
+
+body {
+  margin-top:75px;
+}
+
+.card-box {
+  display: flex;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+
+.navbar {
+  z-index:1;
+  height:75px;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0,0.2);
+}
+
+#apps {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width:18rem;
+  margin:5px;
+}
+
+a.anchor {
+    display: block;
+    position: relative;
+    top: -75px;
+    visibility: hidden;
+}
+
+a {
+  color:#5f2d0b;
+}
+
+a:hover {
+    color:#ffe600;//#a04b13;
+}
+
+footer {
+  background:black;
+}
