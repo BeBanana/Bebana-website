@@ -13,6 +13,7 @@ body {
 h2 {
   font-weight: bold;
   color: #5f2d0b;
+  margin-bottom: 100px;
 }
 
 .card-box {
@@ -36,8 +37,6 @@ h2 {
   display: flex;
   justify-content: center;
 }
-
-
 
 .card {
   width:18rem;
