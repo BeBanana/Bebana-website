@@ -1,8 +1,14 @@
+:root {
+  --dark-primary-color:#455A64;
+  --primary-color:#607D8B;
+  --accent-color:#ffee51;
+}
+
 .with-padding {
   padding:50px;
 }
 
-#about, #contact {
+#apps, #team {
   background:rgba(0, 0, 0, 0.05);
 }
 
@@ -12,18 +18,18 @@ body {
 
 h2 {
   font-weight: bold;
-  color: #5f2d0b;
+  color: var(--primary-color);
   margin-bottom: 100px;
 }
 
 h5 {
   font-weight: bold;
-  color:#A29899;
+  color:var(--dark-primary-color);
 }
 
 .navbar {
   z-index:1;
-  background-color: #fff;
+  background-color:var(--dark-primary-color);
   position: fixed;
   top: 0;
   width: 100%;
@@ -32,16 +38,16 @@ h5 {
 
 .anchor-link {
   font-size: 15px  ! important;
-  color:#5f2d0b ! important;
+  color:#fff ! important;
 }
 
 .anchor-link:hover {
-    color:#ffe600 ! important;
+    color:var(--accent-color) ! important;
 }
 
 .nav-item .nav-link.active, .nav-item .show>.nav-link {
-  color: #ffe600 ! important;
-  background: white ! important;
+  color:var(--accent-color) ! important;
+  background:var(--dark-primary-color) ! important;
 }
 
 #apps {
@@ -56,7 +62,6 @@ h5 {
 
 .card-box {
   display: flex;
-  justify-content:center;
   flex-wrap: wrap;
 }
 
@@ -68,11 +73,11 @@ a.anchor {
 }
 
 a {
-  color:#5f2d0b;
+  color:var(--dark-primary-color);
 }
 
 a:hover {
-    color:#ffe600;
+    color:var(--primary-color);
 }
 
 .social {
@@ -82,4 +87,12 @@ a:hover {
 
 footer {
   background:black;
+}
+
+.card-title {
+  color:var(--accent-color);
+}
+
+.card-footer, .card-header {
+  background:var(--primary-color);
 }
